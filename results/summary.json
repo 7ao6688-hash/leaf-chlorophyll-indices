@@ -1,0 +1,52 @@
+{
+  "band_method": "point",
+  "lab": {
+    "leaves": 160,
+    "species": 8,
+    "best_pooled": "IRECI",
+    "best_within_species": "MTCI",
+    "mean_within_species_r2": {
+      "NDVI": 0.198,
+      "GNDVI": 0.599,
+      "MTCI": 0.749,
+      "IRECI": 0.626,
+      "PSSRa": 0.141
+    },
+    "pooled_r2": {
+      "IRECI": 0.626,
+      "MTCI": 0.585,
+      "GNDVI": 0.487,
+      "PSSRa": 0.214,
+      "NDVI": 0.142
+    }
+  },
+  "satellite": {
+    "plots": 87,
+    "dates": [
+      "2016-04-20",
+      "2016-05-07",
+      "2016-06-09",
+      "2016-07-06",
+      "2016-07-16",
+      "2016-07-19",
+      "2016-08-15",
+      "2016-09-14",
+      "2016-09-24",
+      "2016-10-27"
+    ],
+    "lcc_r2": {
+      "MTCI": 0.671,
+      "GNDVI": 0.511,
+      "NDVI": 0.445,
+      "IRECI": 0.406,
+      "PSSRa": 0.281
+    },
+    "ccc_r2": {
+      "MTCI": 0.758,
+      "GNDVI": 0.581,
+      "NDVI": 0.521,
+      "IRECI": 0.498,
+      "PSSRa": 0.337
+    }
+  }
+}
